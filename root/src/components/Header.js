@@ -1,5 +1,6 @@
 // Import useEffect from React.
 import React, { useState, useEffect } from 'react';
+import '../Styles/Header.css'
 
 const styles={
   headerStyle:{
@@ -7,8 +8,7 @@ const styles={
   },
   headingStyle:{
     fontsize: '50px',
-    
-  }
+    }
 }
 
 function Header() {
