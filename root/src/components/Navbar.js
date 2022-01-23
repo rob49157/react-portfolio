@@ -1,5 +1,5 @@
 import react from 'react'
-function navbar(){
+function Navbar(){
     return(
         <div className='card text-center'>  
         <div className='card-header bg-warning text-white'> Roberto's React Portfolio</div>
@@ -12,4 +12,4 @@ function navbar(){
 }
 
 
-export default navbar
+export default Navbar
