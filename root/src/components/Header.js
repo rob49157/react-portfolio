@@ -17,7 +17,7 @@ const styles={
 const Header = (props) => {
   const {
     setPortfolioSelected,
-    setContactSelected
+    setContactSelected,
   } = props
   return (
     <body>
@@ -26,7 +26,8 @@ const Header = (props) => {
       <h1 style={styles.headingStyle}>Roberto's React Portfolio</h1>
       <div class="navbar-nav">  
       <a class="nav-item nav-link"  Style="font-family:`serif` color=`rgb(207, 182, 182)`"><span onClick={() => setPortfolioSelected(true)}>Projects</span></a>
-      <a class="nav-item nav-link" >Contact</a> </div>
+      <a class="nav-item nav-link" ><span onClick={() => setContactSelected(true)}>Contact</span></a>
+      </div>
       
      
         
