@@ -16,3 +16,9 @@
     color: rgb(207, 182, 182);
     font-family:serif
   }
+
+  .header a{
+      color:rgb(207, 182, 182);
+      font-family: serif;
+      font-size: 1rem;
+  }

@@ -1,12 +1,13 @@
 import react from 'react'
-function Projects(){
-  return(
-      <div></div>
-  )
 
-    
+import Header from './Header'
 
+export default function project(){
+    return(
+        <div><Header>
+            <image src="C:\Users\rober\Desktop\react-portfolio\root\public\redcalendar (2).PNG">
+            </image></Header></div>
+    )
 }
 
 
-export default Projects
