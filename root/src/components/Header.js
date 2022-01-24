@@ -11,17 +11,22 @@ const styles={
     fontsize: '50px',
     }
 }
+// href={`https://CChampness.github.io/Bike-Adventure-Planning`}
+// href={`#mailto:robertopaipo@hotmail.com`}
 
-function Header(props) {
-
+const Header = (props) => {
+  const {
+    setPortfolioSelected,
+    setContactSelected
+  } = props
   return (
     <body>
     <nav>
     <header style={styles.headerStyle} className="header">
       <h1 style={styles.headingStyle}>Roberto's React Portfolio</h1>
       <div class="navbar-nav">  
-      <a class="nav-item nav-link"  Style="font-family:`serif` color=`rgb(207, 182, 182)`"href={`https://CChampness.github.io/Bike-Adventure-Planning`}>Projects</a>
-      <a class="nav-item nav-link" href={`#mailto:robertopaipo@hotmail.com`}>Contact</a> </div>
+      <a class="nav-item nav-link"  Style="font-family:`serif` color=`rgb(207, 182, 182)`"><span onClick={() => setPortfolioSelected(true)}>Projects</span></a>
+      <a class="nav-item nav-link" >Contact</a> </div>
       
      
         
