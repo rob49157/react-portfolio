@@ -2,10 +2,9 @@ import react from 'react'
 
 import Header from './Header'
 
-const Projects =(props)=>{
+const About =(props)=>{
     return <div><p> about me</p></div>
 }
    
 
-export default Projects
-
+export default About

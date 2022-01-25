@@ -6,6 +6,7 @@ import Footer from './components/Contact'
 function App() {
   const [portfolioSelected, setPortfolioSelected] = useState(false)
   const [contactSelected, setContactSelected] = useState(false)
+  const [aboutSelected, setAboutselected]=useState(false)
 
 
   return (
@@ -15,10 +16,13 @@ function App() {
       setPortfolioSelected={setPortfolioSelected}
       contactSelected={contactSelected}
       setContactSelected={setContactSelected}
+      aboutSelected={aboutSelected}
+      setAboutselected={setAboutselected}
     />
     {portfolioSelected ? (
       <>
         <Projects />
+        
       </>
     ) : contactSelected ? (
       <>
@@ -26,7 +30,7 @@ function App() {
           setPortfolioSelected={!setPortfolioSelected}
         />
       </>
-    ) : (
+    ) : aboutSelected  (
       <>
         <About />
       </>
