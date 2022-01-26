@@ -1,13 +1,29 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Projects from './components/Projects';
-import Footer from './components/Contact'
+import Footer from './components/Footer'
+import Contact from './components/Contact'
+import About from './components/About';
 
+
+// const App= () => <Header/>
+
+
+// export default App;
 function App() {
-  const [portfolioSelected, setPortfolioSelected] = useState(false)
-  const [contactSelected, setContactSelected] = useState(false)
-  const [aboutSelected, setAboutselected]=useState(false)
+  let [portfolioSelected, setPortfolioSelected] = useState(false)
+  let [contactSelected, setContactSelected] = useState(false)
+  let [aboutSelected, setAboutselected]=useState(false)
 
+  const page = () => {
+    if (portfolioSelected) {
+        return <Projects></Projects>
+    } else if (contactSelected) {
+        return <Contact></Contact>
+    } else if (aboutSelected) {
+        return <About></About>
+    }
+}
 
   return (
   <div>
@@ -19,23 +35,10 @@ function App() {
       aboutSelected={aboutSelected}
       setAboutselected={setAboutselected}
     />
-    {portfolioSelected ? (
-      <>
-        <Projects />
-        
-      </>
-    ) : contactSelected ? (
-      <>
-        <Contact 
-          setPortfolioSelected={!setPortfolioSelected}
-        />
-      </>
-    ) : aboutSelected  (
-      <>
-        <About />
-      </>
-    )
-  }
+
+    {page()}
+
+  body
   <Footer />
               
               
@@ -44,6 +47,4 @@ function App() {
 }
 
 export default App;
-
-
 

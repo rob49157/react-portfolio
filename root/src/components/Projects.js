@@ -1,11 +1,13 @@
-import react from 'react'
-
-import Header from './Header'
-
-const Projects =(props)=>{
-    return <div><p> about me</p></div>
+import React,{useState} from "react"
+ 
+function Projects() {
+  const [portfolioSelected, setPortfolioSelected]= useState(false)
+  return (
+    <div>
+      <h1>Projects</h1>
+    </div>
+  )
 }
-   
-
-export default Projects
+ 
+export default Projects;
 
