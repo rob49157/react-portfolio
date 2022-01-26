@@ -38,43 +38,43 @@ function Projects() {
         backgroundColor: '',
         fontFamily: 'serif'
       }}>
-        🐦Crypto-dashboard
-        <p>Second group project! The crypto--dashboard app. The app display live crypto prices and contains vast resources on crypto currencies</p>
+        <a href="https://cryptic-cliffs-66103.herokuapp.com/login">  🐦Tech-Blog</a>
+        <p>The app allows the user to create a tech-related blog once Logged in into his/her account</p>
     </Col>
     <Col style={{
         backgroundColor: 'green',
         fontFamily: 'serif'
       }}>
-        🐦Crypto-dashboard
-        <p>Second group project! The crypto--dashboard app. The app display live crypto prices and contains vast resources on crypto currencies</p>
+        <a href="https://tranquil-bastion-13264.herokuapp.com/">  🐦Note-Taker</a>
+        <p>this app connects the app note-taker from front end to the back end using GET and POST.</p>
     </Col>
     <Col style={{
         backgroundColor: 'red',
         fontFamily: 'serif'
       }}>
-        🐦Crypto-dashboard
-        <p>Second group project! The crypto--dashboard app. The app display live crypto prices and contains vast resources on crypto currencies</p>
+      <a href="https://github.com/rob49157/weather-dashboard/commits/main">  🐦Weather-Dashboard</a>
+        <p>The weather dashboard allows you to view the weather of any city in the world. It also gives the user the ability to have their past city searches saved and have them display on the website.Uses API calls</p>
     </Col>
     <Col style={{
         backgroundColor: 'yellow',
         fontFamily: 'serif'
       }}>
-        🐦Crypto-dashboard
-        <p>Second group project! The crypto--dashboard app. The app display live crypto prices and contains vast resources on crypto currencies</p>
+        <a href="https://rob49157.github.io/quiz/">  🐦Quiz</a>
+        <p>A quiz app with five questions that keeps tracks of scores and gives a final grade once completed. Data is store in local storage</p>
     </Col>
     <Col style={{
         backgroundColor: 'orange',
         fontFamily: 'serif'
       }}>
-        🐦Crypto-dashboard
-        <p>Second group project! The crypto--dashboard app. The app display live crypto prices and contains vast resources on crypto currencies</p>
+        <a href="https://rob49157.github.io/password-generator/">  🐦Password-Generator</a>
+        <p>This app creates random passowords for users</p>
     </Col>
        <Col style={{
         backgroundColor: 'rgb(207, 182, 182)',
         fontFamily: 'serif'
       }}>
-        🐦Crypto-dashboard
-        <p>Second group project! The crypto--dashboard app. The app display live crypto prices and contains vast resources on crypto currencies</p>
+        <a href="https://rob49157.github.io/portfolio">  🐦Portfolio page</a>
+        <p>First porfolio page</p>
     </Col>
     </Table>
   </div>
