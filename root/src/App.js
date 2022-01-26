@@ -4,12 +4,17 @@ import Projects from './components/Projects';
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import About from './components/About';
+import Main from './components/Main'
 
 
 // const App= () => <Header/>
 
 
 // export default App;
+
+
+
+ 
 function App() {
   let [portfolioSelected, setPortfolioSelected] = useState(false)
   let [contactSelected, setContactSelected] = useState(false)
@@ -37,6 +42,7 @@ function App() {
     />
 
     {page()}
+    
 
   <Footer />
               

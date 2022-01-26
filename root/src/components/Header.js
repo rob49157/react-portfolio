@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import '../Styles/Header.css'
 import Footer from './Footer';
 import { Container } from 'react-bootstrap';
+import { contains } from 'cheerio/lib/static';
 
 const styles = {
   headerStyle: {
@@ -31,6 +32,9 @@ const Header = (props) => {
             <a class="nav-item nav-link" ><span onClick={() => setContactSelected(true)}>Contact</span></a>
             <a class="nav-item nav-link" ><span onClick={() => setAboutselected(true)}>about</span></a>
           </div>
+          <body>
+           
+          </body>
 
 
 
@@ -39,7 +43,6 @@ const Header = (props) => {
 
         </header>
       </nav>
-      
     
     
   );
