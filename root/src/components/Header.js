@@ -22,7 +22,7 @@ const Header = (props) => {
     setAboutselected,
   } = props
   return (
-    <body>
+    
       <nav>
         <header style={styles.headerStyle} className="header">
           <h1 style={styles.headingStyle}>Roberto's React Portfolio</h1>
@@ -40,7 +40,7 @@ const Header = (props) => {
         </header>
       </nav>
       
-    </body>
+    
     
   );
 }

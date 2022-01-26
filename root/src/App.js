@@ -28,12 +28,12 @@ function App() {
   return (
   <div>
     <Header 
-      portfolioSelected={portfolioSelected}
-      setPortfolioSelected={setPortfolioSelected}
-      contactSelected={contactSelected}
-      setContactSelected={setContactSelected}
-      aboutSelected={aboutSelected}
-      setAboutselected={setAboutselected}
+       portfolioSelected={portfolioSelected}
+       setPortfolioSelected={setPortfolioSelected}
+       contactSelected={contactSelected}
+       setContactSelected={setContactSelected}
+       aboutSelected={aboutSelected}
+       setAboutselected={setAboutselected}
     />
 
     {page()}
