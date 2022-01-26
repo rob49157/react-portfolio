@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Contact from './components/Contact'
 import About from './components/About';
 import Main from './components/Main'
+import './Styles/Header.css'
 
 
 // const App= () => <Header/>

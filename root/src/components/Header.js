@@ -28,9 +28,9 @@ const Header = (props) => {
         <header style={styles.headerStyle} className="header">
           <h1 style={styles.headingStyle}>Roberto's React Portfolio</h1>
           <div class="navbar-nav">
-            <a class="nav-item nav-link" Style="font-family:`serif` color=`rgb(207, 182, 182)`"><span onClick={() => setPortfolioSelected(true)}>Projects</span></a>
+            <a class="nav-item nav-link" ><span onClick={() => setPortfolioSelected(true)}>Projects</span></a>
             <a class="nav-item nav-link" ><span onClick={() => setContactSelected(true)}>Contact</span></a>
-            <a class="nav-item nav-link" ><span onClick={() => setAboutselected(true)}>about</span></a>
+            <a class="nav-item nav-link" ><span onClick={() => setAboutselected(true)}>About Me</span></a>
           </div>
           <body>
            
