@@ -22,3 +22,7 @@
       font-family: serif;
       font-size: 1rem;
   }
+
+  .footer{
+    justify-content: center;
+  }

@@ -1,4 +1,5 @@
 import react, {useState} from "react"
+import '../Styles/Header.css'
 
 function Footer(){
     return(

@@ -17,18 +17,20 @@ import Header from './Header'
 
 function Contact(){
     const [contactSelected,setcontactSelected]= useState(false)
-    return(
-        <div className="card text-center">
-        <div className="card-header bg-primary text-white">
-          Greeting from state:
-        </div>
-        <div className="card-body">
-          <p className="card-text" style={{ fontSize: '50px' }}>
-            {contactSelected}
-            asasd
-          </p>
-        </div>
-      </div>
+    return(<form> <ul>
+      <label>
+        
+        <input type="text" name="name" placeholder='Name' />
+      </label>
+      <input type="submit" value="Submit" />
+      <label>
+       
+        <input type="text" name="name" placeholder='last name' />
+      </label>
+      <input type="submit" value="Submit" />
+      </ul>
+    </form>
+     
     )
 }
 

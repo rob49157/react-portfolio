@@ -38,7 +38,6 @@ function App() {
 
     {page()}
 
-  body
   <Footer />
               
               
