@@ -4,7 +4,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import About from './components/About';
-import Main from './components/Main'
+import Pages from './components/Pages'
 import './Styles/Header.css'
 
 
@@ -19,7 +19,7 @@ import './Styles/Header.css'
 function App() {
   let [portfolioSelected, setPortfolioSelected] = useState(false)
   let [contactSelected, setContactSelected] = useState(false)
-  let [aboutSelected, setAboutselected]=useState(false)
+  let [aboutSelected, setAboutselected]=useState(true)
 
   const page = () => {
     if (portfolioSelected) {
