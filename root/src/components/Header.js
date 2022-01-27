@@ -18,9 +18,9 @@ const styles = {
 
 const Header = (props) => {
   const {
-    setPortfolioSelected,
-    setContactSelected,
-    setAboutselected,
+    portfolioselected,setPortfolioSelected,
+    contactSelected,setContactSelected,
+    aboutSelected, setAboutselected,
   } = props
   return (
     

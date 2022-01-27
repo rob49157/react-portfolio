@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import { Table } from "react-bootstrap";
 import crypto from '../images/cryptopicture.PNG'
 import bikeadventure from '../images/bikeadventure.png'
+import calendar from '../images/redcalendar.PNG'
 
  
 function Projects() {
@@ -18,7 +19,7 @@ function Projects() {
       <Col style={{
         backgroundColor: 'red',
         fontFamily: 'serif'
-      }}>
+      }}><img className='textwrap-img' src={calendar} />
         <a href="https://rob49157.github.io/work-day-scheduler/">🐦Interactive-calendar</a>
         <p>First group project! This app allows the user to create an interactive calendar</p>
     </Col>

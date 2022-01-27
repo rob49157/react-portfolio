@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import crypto from '../images/cryptopicture.PNG'
+import roberto from '../images/Rbuzeta.jpg'
 
 
 import Header from './Header'
@@ -14,7 +15,7 @@ function About(){
             
         </div>
         <div className="card-body">
-          <img className='textwrap-img' src={crypto} />
+          <img className='textwrap-img' src={roberto} />
           <p className="card-text" style={{ fontSize: '50px' }}>
             {aboutSelected}
             
