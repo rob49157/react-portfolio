@@ -5,6 +5,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { Table } from "react-bootstrap";
+import crypto from '../images/cryptopicture.PNG'
+import bikeadventure from '../images/bikeadventure.png'
+
  
 function Projects() {
   const [portfolioSelected, setPortfolioSelected]= useState(false)
@@ -22,7 +25,7 @@ function Projects() {
       <Col style={{
         backgroundColor: 'yellow',
         fontFamily: 'serif'
-      }}>
+      }}><img className='textwrap-img' src={bikeadventure} />
          <a href="https://CChampness.github.io/Bike-Adventure-Planning">  🐦Bike-adventure</a>
         <p>First group project! The purpose of the app is to display bike trails throughout the planet.
             New trails are being added on daily basis.</p>
@@ -30,7 +33,7 @@ function Projects() {
       <Col style={{
         backgroundColor: 'green',
         fontFamily: 'serif'
-      }}>
+      }}> <img className='textwrap-img' src={crypto} />
          <a href="https://tranquil-everglades-59089.herokuapp.com/">  🐦crypto-dashboard</a>
         <p>Second group project! The crypto--dashboard app. The app display live crypto prices and contains vast resources on crypto currencies</p>
     </Col>

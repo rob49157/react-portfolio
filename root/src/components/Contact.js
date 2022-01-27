@@ -1,15 +1,4 @@
-// import React, {useState} from "react"
- 
-// function Contact(props) {
-//     const [contactSelected,setcontactSelected]= useState(false)
-//   return (
-//     <div>
-//       <h1>Projectssadfasdfasdgdfgfdsgsd</h1>
-//     </div>
-//   )
-// }
- 
-// export default Contact;
+
 
 import React,{useState} from 'react'
 
