@@ -18,7 +18,7 @@ const styles={
 function Footer(){
     return(
         <footer  className="footer">
-            <a  href="https://github.com/rob49157">Github</a>&nbsp;
+            <a  src={github} href="https://github.com/rob49157">Github</a>&nbsp;
             <a  href="https://www.linkedin.com/in/roberto-buzeta-541688178/">linkedin</a>&nbsp;
             
         </footer>

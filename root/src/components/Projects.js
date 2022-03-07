@@ -22,7 +22,7 @@ function Projects() {
   const [portfolioSelected, setPortfolioSelected]= useState(false)
   return (
     <div  classname= 'cards' style={{ display: 'inline', padding: 23, borderBlockColor:'black', justifyContent:' center',  }}>
-    <h4 style={{fontFamily:'serif',textAlign: 'center'}}>Projects</h4>
+    <h4 style={{fontFamily:'serif',textAlign: 'center'}}>🅿🆁🅾🅹🅴🅲🆃🆂</h4>
    <Row  xs= {1} md={2} classname="cards">
     <Card   style={{ width: '40rem' , margin:' 30px', textAlign:'center'}}>
   <Card.Img variant="top" src={calendar} />
