@@ -1,5 +1,7 @@
 import react, {useState} from "react"
 import '../Styles/Header.css'
+import github from  '../images/github.png'
+import linkedin from '../images/linkedin.png'
 
 const styles={
     footerstyle:{position: "fixed",

@@ -4,7 +4,7 @@ import React,{useState} from "react"
 import 'bootstrap/dist/css/bootstrap.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import { Table, Card, Button, Link, Container } from "react-bootstrap";
+import { Table, Card, Button, Link, CardGroup } from "react-bootstrap";
 import crypto from '../images/cryptopicture.PNG'
 import bikeadventure from '../images/bikeadventure.png'
 import calendar from '../images/redcalendar.PNG'
@@ -21,10 +21,10 @@ import '../Styles/projectstyle.css'
 function Projects() {
   const [portfolioSelected, setPortfolioSelected]= useState(false)
   return (
-    <div style={{ display: 'block', width: 700, padding: 30 }}>
+    <div  classname= 'cards' style={{ display: 'inline', padding: 23, borderBlockColor:'black', justifyContent:' center',  }}>
     <h4 style={{fontFamily:'serif',textAlign: 'center'}}>Projects</h4>
-   <Container classname="cards">
-    <Card   style={{ width: '40rem' ,  }}>
+   <Row  xs= {1} md={2} classname="cards">
+    <Card   style={{ width: '40rem' , margin:' 30px', textAlign:'center'}}>
   <Card.Img variant="top" src={calendar} />
   <Card.Body>
     <Card.Title>Interactive-calendar</Card.Title>
@@ -35,8 +35,8 @@ function Projects() {
     
   </Card.Body>
 </Card>
-style
-<Card  style={{ width: '40rem' }}>
+
+<Card  style={{ width: '40rem',margin:' 30px',textAlign:'center'}}>
   <Card.Img variant="top" src={bikeadventure} />
   <Card.Body>
     <Card.Title>Bike-Adventure</Card.Title>
@@ -48,7 +48,7 @@ style
     
   </Card.Body>
 </Card>
-<Card   style={{ width: '40rem' }}>
+<Card   style={{ width: '40rem',margin:' 30px', textAlign:'center' }}>
   <Card.Img variant="top" src={crypto} />
   <Card.Body>
     <Card.Title>Crypto-Dashboard</Card.Title>
@@ -59,7 +59,7 @@ style
     
   </Card.Body>
 </Card>
-<Card  style={{ width: '40rem' }}>
+<Card  style={{ width: '40rem' ,margin:' 30px', textAlign:'center'}}>
   <Card.Img variant="top" src={tech} />
   <Card.Body>
     <Card.Title>Tech-Blog</Card.Title>
@@ -70,7 +70,7 @@ style
     
   </Card.Body>
 </Card>
-<Card  style={{ width: '40rem' }}>
+<Card  style={{ width: '40rem', margin:' 30px', textAlign:'center' }}>
   <Card.Img variant="top" src={note} />
   <Card.Body>
     <Card.Title>Note-Taker</Card.Title>
@@ -81,7 +81,7 @@ style
     
   </Card.Body>
 </Card>
-<Card  style={{ width: '40rem' }}>
+<Card  style={{ width: '40rem', margin:' 30px', textAlign:'center' }}>
   <Card.Img variant="top" src={weather} />
   <Card.Body>
     <Card.Title>Weather-Dashboard</Card.Title>
@@ -92,7 +92,7 @@ style
     
   </Card.Body>
 </Card>
-<Card  style={{ width: '40rem' }}>
+<Card  style={{ width: '40rem', margin:' 30px', textAlign:'center' }}>
   <Card.Img variant="top" src={quiz} />
   <Card.Body>
     <Card.Title>Quiz</Card.Title>
@@ -103,7 +103,7 @@ style
     
   </Card.Body>
 </Card>
-<Card style={{ width: '40rem' }}>
+<Card style={{ width: '40rem', margin:'30px', textAlign:'center' }}>
   <Card.Img variant="top" src={password} />
   <Card.Body>
     <Card.Title>Password-Generator</Card.Title>
@@ -114,7 +114,7 @@ style
     
   </Card.Body>
 </Card>
-<Card style={{ width: '40rem' }}>
+<Card style={{ width: '40rem', margin:'30px', textAlign:'center' }}>
   <Card.Img variant="top" src={porfolio} />
   <Card.Body>
     <Card.Title>HTML,JS,CSS Porfolio Page</Card.Title>
@@ -125,7 +125,7 @@ style
     
   </Card.Body>
 </Card>
-</Container>
+</Row>
    
   </div>
 );
