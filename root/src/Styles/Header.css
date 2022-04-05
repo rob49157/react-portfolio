@@ -4,6 +4,79 @@
 
 
 
+
+/* Create two equal columns that float next to each other */
+.aboutmebox {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  height: absolute;
+  margin:30px;
+  margin-right:30px;
+  margin-bottom: 70px;
+  background-color: #FEDE00;
+  line-height:2;
+  border-radius: 50px;
+  box-shadow: 10px 15px 30px   #16a085;
+}
+.textwrap-img{
+  width: 20%;
+  height: 20%;
+  border-radius: 50px;
+  float:left;
+  box-shadow:5px 1px 5px rgb(54, 53, 53) ;
+}
+
+.bikepicture{
+  width: 20%;
+  height: 20%;
+  border-radius: 50px;
+  float:left;
+  box-shadow:5px 1px 5px rgb(54, 53, 53) ;
+
+}
+
+.biking{
+  float: right;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  height: absolute;
+  margin:30%;
+  margin-top: 0%;
+  margin-right:40px;
+  margin-bottom: 70px;
+  background-color: #FEDE00;
+  line-height:2;
+  border-radius: 50px;
+  box-shadow: 10px 15px 30px   #16a085;
+}
+
+.cryptoinfo{
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  height: absolute;
+  margin:30px;
+  margin-right:30px;
+  margin-bottom: 70px;
+  background-color: #FEDE00;
+  line-height:2;
+  border-radius: 50px;
+  box-shadow: 10px 15px 30px   #16a085;
+
+}
+
+
+
+
+
+/* 
 .header {
     background: #b71775;
     height: 200px;
@@ -61,4 +134,4 @@
   
  .navbar{
    color:aqua
- }
+ } */

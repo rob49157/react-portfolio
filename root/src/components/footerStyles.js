@@ -6,7 +6,7 @@ export const Box = styled.div`
   position: absolute;
   opacity: .50;
   
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   
    

@@ -45,7 +45,7 @@
     animation-iteration-count: infinite;
 }
 .content__container__text {
-    display: inline;
+    display: table-row;
     float: left;
     margin: 0;
 }

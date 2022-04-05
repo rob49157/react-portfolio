@@ -33,12 +33,12 @@ function App() {
 
   <Navbar className="navbar" bg="dark" variant="dark">
 
-    <Navbar.Brand Classname='metalgear' href="#home">Roberto's page</Navbar.Brand>
+    <Navbar.Brand Classname='metalgear' href="/home" element={Home}>Roberto's page</Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link href="/" element={Home}>Home</Nav.Link>
+      <Nav.Link href="/" element={Home}></Nav.Link>
       <Nav.Link href="/Projects" element={Projects}>Projects</Nav.Link>
       <Nav.Link href="/About" element={About}>About</Nav.Link>
-      <Nav.Link href="/Contact" element={Contact}>Contact</Nav.Link>
+      <Nav.Link href="/Resume" element={Contact}>Resume</Nav.Link>
 
 
 
@@ -49,7 +49,7 @@ function App() {
   
   <Router>
     <Routes>
-      <Route exact path="/" element={ <Home />} />
+      <Route exact path="/home" element={ <Home />} />
       <Route exact path="/Projects" element={<Projects  />} />
       <Route exact path="/About" element={<About/>} />
       <Route exact path="/Contact" element={<Contact/>} />
@@ -57,7 +57,9 @@ function App() {
     </Routes>
   </Router>
 
-  <Footer />
+
+<Footer/>
+ 
     
 
 
