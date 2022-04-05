@@ -2,8 +2,11 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles/Header.css'
 import Footer from './Footer';
-import { Container } from 'react-bootstrap';
+import { Container,Nav,Link,Navbar } from 'react-bootstrap';
 import { contains } from 'cheerio/lib/static';
+import Projects from '../components/Projects'
+import contact from '../components/Contact'
+import About from './About';
 
 const styles = {
   headerStyle: {
@@ -47,6 +50,17 @@ const Header = (props) => {
     
   );
 }
+
+<Navbar bg="primary" variant="dark">
+<Container>
+<Navbar.Brand href="#home">Navbar</Navbar.Brand>
+<Nav className="me-auto">
+  <Nav.Link href="#home">Home</Nav.Link>
+  <Nav.Link href="#features">Features</Nav.Link>
+  <Nav.Link href="#pricing">Pricing</Nav.Link>
+</Nav>
+</Container>
+</Navbar>
 
 
 
