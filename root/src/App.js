@@ -39,6 +39,9 @@ function App() {
       <Nav.Link href="/Projects" element={Projects}>Projects</Nav.Link>
       <Nav.Link href="/About" element={About}>About</Nav.Link>
       <Nav.Link href="/Resume" element={Contact}>Resume</Nav.Link>
+      <Nav.Link href="https://twitter.com/home" >twitter</Nav.Link>
+      <Nav.Link href="https://github.com/rob49157" >Github</Nav.Link>
+      <Nav.Link href="https://www.linkedin.com/in/roberto-buzeta-541688178/" >linkedin</Nav.Link>
 
 
 
@@ -58,7 +61,7 @@ function App() {
   </Router>
 
 
-<Footer/>
+
  
     
 

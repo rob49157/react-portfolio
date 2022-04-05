@@ -32,9 +32,11 @@ function About(){
             </div>
           </div>
 
-          <div className='cryptoinfo'>
-            <h1>Crypto</h1>
-             <p>fsajdhfkjlashdjklghdfkjlaghklda</p>
+          <div className='Freelance'>
+            <h1>FreeLancing</h1>
+             <p>Im Ready to design your website with any Technologies you need</p>
+             <p>With over +22 projects under my belt, I'm ready to tackle your next challenge. Let it be a Personal portfolio page, Business application or your own social media APP. Whatever your need is  I can build it!</p>
+             <p> checkout All my projects on the above link</p>
 
           </div>
       </div>
