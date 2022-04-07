@@ -43,6 +43,7 @@ function App() {
       <Nav.Link href="https://twitter.com/home" >Twitter</Nav.Link>
       <Nav.Link href="https://github.com/rob49157" >Github</Nav.Link>
       <Nav.Link href="https://www.linkedin.com/in/roberto-buzeta-541688178/" >linkedin</Nav.Link>
+      
 
 
 
@@ -50,7 +51,7 @@ function App() {
     </Nav>
 
   </Navbar>
-  
+ 
   <Router>
     <Routes>
       <Route exact path="/home" element={ <Home />} />
