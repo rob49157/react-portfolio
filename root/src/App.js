@@ -8,7 +8,7 @@ import Home from './components/Home';
 
 import './Styles/Header.css'
 import { Navbar, Container, Nav, Modal, Tab } from "react-bootstrap";
-// import { HashRouter as Router, Switch, Route, Routes, BrowserRouter } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Routes, BrowserRouter } from "react-router-dom";
 
 
 
@@ -48,15 +48,15 @@ function App() {
 
   </Navbar>
  
-  {/* <Router>
+  <Router>
     <Routes>
-      <Route exact path="/home" element={ <Home />} />
-      <Route exact path="/Projects" element={<Projects  />} />
-      <Route exact path="/About" element={<About/>} />
-      <Route exact path="/Contact" element={<Contact/>} />
+      <Route  path="/home" element={ <Home />} />
+      <Route  path="/Projects" element={<Projects  />} />
+      <Route  path="/About" element={<About/>} />
+      <Route  path="/Contact" element={<Contact/>} />
 
     </Routes>
-  </Router> */}
+  </Router>
 
 
 
