@@ -8,13 +8,9 @@ import Home from './components/Home';
 
 import './Styles/Header.css'
 import { Navbar, Container, Nav, Modal, Tab } from "react-bootstrap";
-import { HashRouter as Router, Switch, Route, Routes, BrowserRouter } from "react-router-dom";
+// import { HashRouter as Router, Switch, Route, Routes, BrowserRouter } from "react-router-dom";
 
 
-// const App= () => <Header/>
-
-
-// export default App;
 
 
 
@@ -52,7 +48,7 @@ function App() {
 
   </Navbar>
  
-  <Router>
+  {/* <Router>
     <Routes>
       <Route exact path="/home" element={ <Home />} />
       <Route exact path="/Projects" element={<Projects  />} />
@@ -60,7 +56,7 @@ function App() {
       <Route exact path="/Contact" element={<Contact/>} />
 
     </Routes>
-  </Router>
+  </Router> */}
 
 
 
