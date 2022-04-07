@@ -54,10 +54,10 @@ function App() {
  
   <Router>
     <Routes>
-      <Route exact path="/home" element={ <Home />} />
-      <Route exact path="/Projects" element={<Projects  />} />
-      <Route exact path="/About" element={<About/>} />
-      <Route exact path="/Contact" element={<Contact/>} />
+      <Route  path="/home" element={ <Home />} />
+      <Route  path="/Projects" element={<Projects  />} />
+      <Route  path="/About" element={<About/>} />
+      <Route  path="/Contact" element={<Contact/>} />
 
     </Routes>
   </Router>
