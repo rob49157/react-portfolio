@@ -12,7 +12,7 @@ import Header from './Header'
 function About(){
 
     return(
-      <div >
+      <div >asd
 
         <div className='aboutmebox'> 
         <h1> About me </h1>

@@ -29,9 +29,9 @@ function App() {
 
   <Navbar className="navbar" bg="dark" variant="dark">
 
-    <Navbar.Brand Classname='metalgear' href="/home" element={Home}>Roberto's page</Navbar.Brand>
+    <Navbar.Brand classname='metalgear' href="/home" element={Home}>Roberto's page</Navbar.Brand>
     <Nav className="me-auto">
-      {/* <Nav.Link href="/" element={Home}></Nav.Link> */}
+      <Nav.Link href="/" element={Home}></Nav.Link>
       <Nav.Link href="/About" element={About}>About ME</Nav.Link>
       <Nav.Link href="/Projects" element={Projects}>Projects</Nav.Link>
       
@@ -48,15 +48,13 @@ function App() {
 
   </Navbar>
  
-  <Router>
     <Routes>
-      <Route  path="/home" element={ <Home />} />
-      <Route  path="/Projects" element={<Projects  />} />
-      <Route  path="/About" element={<About/>} />
-      <Route  path="/Contact" element={<Contact/>} />
+      <Route exact path="/" element={ <Home />} />
+      <Route path="/Projects" element={<Projects  />} />
+      <Route path="/About" element={<About/>} />
+      <Route path="/Contact" element={<Contact/>} />
 
     </Routes>
-  </Router>
 
 
 
