@@ -52,15 +52,15 @@ function App() {
 
   </Navbar>
  
-  <Router>
+  <BrowserRouter basename='/react-portfolio'>
     <Routes>
-      <Route exact path="/react-portfolio/" element={ <Home />} />
-      <Route exact path="/react-portfolio/Projects" element={<Projects  />} />
-      <Route exact path="/react-portfolio/About" element={<About/>} />
-      <Route exact path="/react-portfolio/Contact" element={<Contact/>} />
+      <Route exact path="/" element={ <Home />} />
+      <Route exact path="/Projects" element={<Projects  />} />
+      <Route exact path="/About" element={<About/>} />
+      <Route exact path="/Contact" element={<Contact/>} />
 
     </Routes>
-  </Router>
+  </BrowserRouter>
 
 
 
