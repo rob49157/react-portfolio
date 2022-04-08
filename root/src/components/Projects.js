@@ -16,6 +16,7 @@ import quiz from '../images/quizpic.PNG'
 import blog from '../images/techblogpic.PNG'
 import weather from '../images/weatherdashpic.PNG'
 import tech from '../images/techblogpic.PNG'
+import doctor from '../images/doctorpage.PNG'
 
 import '../Styles/projectstyle.css'
 
@@ -97,21 +98,22 @@ function Projects() {
           </div>
           </div>
 
-          {/* <div className='projectcss'> 
-        <h1> Quiz-app</h1>
+          <div className='projectcss'> 
+        <h1> Doctor-Review</h1>
         <p>
-        A quiz app with five questions that keeps tracks of scores and gives a final grade once completed with a 32 second timer. 
-        Final scores are store in local storage
+        People have relied on their friends to give them a good recommendation for a doctor. Sometimes your friends haven't seen a specific doctor that you need to see. 
+        Sometimes it may be embarrassing to tell someone other than a doctor what is wrong. Whenever that is the case it is pretty much a shot in the dark when choosing a doctor. 
+        Instead of taking shots in the dark, use this application to find a good doctor.
      
         </p>
       
-        <Card.Link href="https://rob49157.github.io/quiz/">Quiz-app</Card.Link>
+        <Card.Link href="https://arcane-stream-32047.herokuapp.com/">Doctor-Review</Card.Link>
           
           <div >
-            <img className='projectimages2' src={quiz}></img>
+            <img className='projectimages1' src={doctor}></img>
 
           </div>
-          </div> */}
+          </div>
 
 
           <div className='projectcss'> 
@@ -131,21 +133,7 @@ function Projects() {
           </div>
           </div>
 
-             <div className='projectcss'> 
-        <h1> Quiz-app</h1>
-        <p>
-        A quiz app with five questions that keeps tracks of scores and gives a final grade once completed with a 32 second timer. 
-        Final scores are store in local storage
-     
-        </p>
-      
-        <Card.Link href="https://rob49157.github.io/quiz/">Quiz-app</Card.Link>
-          
-          <div >
-            <img className='projectimages2' src={quiz}></img>
-
-          </div>
-          </div>
+ 
 
           
           
