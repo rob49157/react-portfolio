@@ -8,6 +8,6 @@ https://github.com/rob49157/react-portfolio
 https://rob49157.github.io/react-portfolio/
 
 ## images 
-![reactP](https://user-images.githubusercontent.com/88434699/151282239-c5e19052-d6b8-4ae1-a9ef-a7528ec6f0f5.PNG)
+![portfoliopic1](https://user-images.githubusercontent.com/88434699/162344206-77b16452-bcd8-4eef-bf76-a2fb5ce50096.PNG)
 
-![reatport2](https://user-images.githubusercontent.com/88434699/151282332-fb5ba003-5e58-47ae-ba82-74eb96be9db7.PNG)
+![portfoliopic2](https://user-images.githubusercontent.com/88434699/162344297-2ca9af4b-ce87-404c-aef0-a28ec7746ce2.PNG)
