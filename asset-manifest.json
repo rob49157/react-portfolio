@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.aac7b3bc.css",
-    "main.js": "/react-portfolio/static/js/main.5c41bb2f.js",
+    "main.css": "/react-portfolio/static/css/main.bc5b8001.css",
+    "main.js": "/react-portfolio/static/js/main.a5bae273.js",
     "static/media/bike.jpg": "/react-portfolio/static/media/bike.652da223e5a2f5862526.jpg",
     "static/media/Rbuzeta.jpg": "/react-portfolio/static/media/Rbuzeta.936827783504db907083.jpg",
     "static/media/doctorpage.PNG": "/react-portfolio/static/media/doctorpage.f131eac48877e014dfbf.PNG",
     "static/media/bikeadventure.png": "/react-portfolio/static/media/bikeadventure.07ac0c7628d7da5f1261.png",
+    "static/media/booksearch.PNG": "/react-portfolio/static/media/booksearch.36d59cc73b2856eb5d8c.PNG",
     "static/media/porfolipic.PNG": "/react-portfolio/static/media/porfolipic.7db3b322dd3fbea7a398.PNG",
     "static/media/resumescreenshot.PNG": "/react-portfolio/static/media/resumescreenshot.a14da48a9b26d16b736d.PNG",
     "static/media/cryptopicture.PNG": "/react-portfolio/static/media/cryptopicture.a374bcfb7428400c12c8.PNG",
@@ -16,11 +17,11 @@
     "static/media/quizpic.PNG": "/react-portfolio/static/media/quizpic.6d86a59997b7cf637422.PNG",
     "static/media/techblogpic.PNG": "/react-portfolio/static/media/techblogpic.b58e53ec5d52110146a7.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.aac7b3bc.css.map": "/react-portfolio/static/css/main.aac7b3bc.css.map",
-    "main.5c41bb2f.js.map": "/react-portfolio/static/js/main.5c41bb2f.js.map"
+    "main.bc5b8001.css.map": "/react-portfolio/static/css/main.bc5b8001.css.map",
+    "main.a5bae273.js.map": "/react-portfolio/static/js/main.a5bae273.js.map"
   },
   "entrypoints": [
-    "static/css/main.aac7b3bc.css",
-    "static/js/main.5c41bb2f.js"
+    "static/css/main.bc5b8001.css",
+    "static/js/main.a5bae273.js"
   ]
 }
