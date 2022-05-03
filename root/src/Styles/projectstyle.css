@@ -41,4 +41,24 @@
     box-shadow:5px 1px 5px rgb(54, 53, 53) ;
     
   }
+
+
+/* iphone12 pro */
+@media only screen and ( min-device-width: 390px) and  (max-width:884px)  {
+  .projectcss{
+    display: table-row;
+    float: center;
+    width: 60%;
+    padding: 40px;
+    padding-left:60px;
+    padding-right: 40px;
+    border-radius: 50px;
+  }
+  .projectimages{
+
+  width: 100%;
   
+  }
+    
+    
+  }
