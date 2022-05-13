@@ -140,22 +140,7 @@ function Projects() {
         </div>
       </div>
 
-      <div className="projectcss">
-        <h1> Weather-Dashboard</h1>
-        <p>
-          The weather dashboard allows you to view the weather of any city in
-          the world. It also gives the user the ability to have their past city
-          searches saved and have them display on the website.Uses API calls
-        </p>
-
-        <Card.Link href="https://rob49157.github.io/weather-dashboard/">
-          weather-dashboard
-        </Card.Link>
-
-        <div>
-          <img className="projectimages1" src={weather}></img>
-        </div>
-      </div>
+     
     
 
       <div className="projectcss">
