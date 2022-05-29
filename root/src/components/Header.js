@@ -7,6 +7,7 @@ import { contains } from 'cheerio/lib/static';
 import Projects from '../components/Projects'
 import contact from '../components/Contact'
 import About from './About';
+{/* <a href='https://www.freepik.com/vectors/social'>Social vector created by myriammira - www.freepik.com</a> */}
 
 const styles = {
   headerStyle: {

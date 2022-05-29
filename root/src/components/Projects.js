@@ -33,6 +33,8 @@ function Projects() {
         🅿🆁🅾🅹🅴🅲🆃🆂
       </h4>
 
+
+
       <div className="projectcss">
         <h1> Interactive Calendar</h1>
         <p>
@@ -51,7 +53,7 @@ function Projects() {
       <div className="projectcss">
         <h1> Bike-Adventure</h1>
         <p>
-          TFirst group project! The purpose of the app is to display bike trails
+          First group project! The purpose of the app is to display bike trails
           throughout the planet. New trails are being added on daily basis
         </p>
         <Card.Link href="https://CChampness.github.io/Bike-Adventure-Planning">

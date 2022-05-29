@@ -17,6 +17,7 @@
   margin-right:30px;
   margin-bottom: 70px;
   background-color: #FEDE00;
+  border-style: double;
   
   border-radius: 10px;
   box-shadow: 10px 15px 30px   #16a085;
@@ -52,6 +53,7 @@
   margin-right:40px;
   margin-bottom: 1px;
   background-color: #FEDE00;
+  border-style: double;
   
   
   border-radius: 10px;
@@ -60,6 +62,7 @@
 }
 
 .biking:hover{
+  box-shadow: red;
   color: #16a085;
  
   
@@ -90,6 +93,7 @@
   border-radius: 10px;
   box-shadow: 10px 15px 30px   #16a085;
   opacity: 80%;
+  border-style: double;
 
 }
 
