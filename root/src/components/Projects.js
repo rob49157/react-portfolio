@@ -39,7 +39,7 @@ function Projects() {
         <h1> Interactive Calendar</h1>
         <p>
           This app allows the user to create an interactive work scheduler. As
-          time passes, the tables will change colors{" "}
+          time passes, the table colors change from green to red.{" "}
         </p>
         <Card.Link href="https://rob49157.github.io/work-day-scheduler/">
           Interactive calendar
@@ -53,7 +53,7 @@ function Projects() {
       <div className="projectcss">
         <h1> Bike-Adventure</h1>
         <p>
-          First group project! The purpose of the app is to display bike trails
+          Group project.  The purpose of the app is to display bike trails
           throughout the planet. New trails are being added on daily basis
         </p>
         <Card.Link href="https://CChampness.github.io/Bike-Adventure-Planning">
@@ -87,7 +87,7 @@ function Projects() {
           might need to. for example, you can type, " I need to get bread today
           after work" and the note wil be saved to page. you can also delete the
           note. This app connects the app note-taker from front end to the back
-          end using GET and POST. All the notes are being store locally
+          end using GET and POST. All the notes are being store on local storage
         </p>
 
         <Card.Link href="https://tranquil-bastion-13264.herokuapp.com/">
@@ -127,10 +127,10 @@ function Projects() {
         <p>
           People have relied on their friends to give them a good recommendation
           for a doctor. Sometimes your friends haven't seen a specific doctor
-          that you need to see. Sometimes it may be embarrassing to tell someone
+          that you might need to see, or it may be embarrassing to tell someone
           other than a doctor what is wrong. Whenever that is the case it is
           pretty much a shot in the dark when choosing a doctor. Instead of
-          taking shots in the dark, use this application to find a good doctor.
+          taking those shots, use this application to find a good doctor and leave reviews for other people to make inform decision.
         </p>
 
         <Card.Link href="https://arcane-stream-32047.herokuapp.com/">
@@ -147,11 +147,9 @@ function Projects() {
 
       <div className="projectcss">
         <h1> Password-Generator</h1>
-        <p>The app will generate random password at users request.</p>
-        <p>
-          The generator will use a javascript function to randomly generate
-          random 13-key password
-        </p>
+        <p>The app will generate random password at users request. The generator will use a javascript function to randomly generate
+          random 13-key password</p>
+      
 
         <Card.Link href="https://rob49157.github.io/password-generator/">
           Password-Generator

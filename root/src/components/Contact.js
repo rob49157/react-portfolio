@@ -10,8 +10,8 @@ function Contact() {
   return (
     <div className="contact">
       <h1>Contact List</h1>
-      <p>You can Contact me on Twitter, Facebook, Github or Linkedin down below. 
-        If you have any questions, please don't hesitate to reach out to me. 
+      <p> 
+        If you have any questions, please don't hesitate to reach out to me on my Twitter, Facebook, Github or Linkedin down below. 
 
       </p>
       <Card.Link href="https://twitter.com/Roberto75698773">

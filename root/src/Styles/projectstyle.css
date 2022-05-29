@@ -1,4 +1,6 @@
 .contact {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
   float: left;
 
   width: 45%;
@@ -19,6 +21,8 @@
 }
 
 .projectcss {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
   display: table-row;
   float: left;
   width: 45%;
@@ -66,10 +70,6 @@
   box-shadow: 5px 1px 5px rgb(54, 53, 53);
 }
 
-.card {
-  width: 50%;
-  background-color: #16a085;
-}
 
 /* iphone12 pro */
 @media only screen and (min-device-width: 390px) and (max-width: 884px) {
