@@ -128,4 +128,15 @@
     padding-right: 20px;
     border-radius: 50px;
   }
+  .marketwatchlist{
+    display: table-row;
+    float: center;
+    width: 80%;
+    margin-top: -3vh;
+    padding: 40px;
+    padding-left: 60px;
+    padding-right: 40px;
+    border-radius: 50px;
+
+  }
 }
