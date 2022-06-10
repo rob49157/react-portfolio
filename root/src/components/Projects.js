@@ -16,6 +16,7 @@ import weather from "../images/weatherdashpic.PNG";
 import tech from "../images/techblogpic.PNG";
 import doctor from "../images/doctorpage.PNG";
 import book from "../images/booksearch.PNG";
+import crypto2 from "../images/reactcrypto.PNG"
 
 import "../Styles/projectstyle.css";
 
@@ -161,7 +162,27 @@ function Projects() {
       </div>
 
       
+      <div className="marketwatchlist">
+        <h1> Market-Watchlist</h1>
+        <p>The app will retrieve live Crypto and Forex data to keep users inform before making financial decisions. 
+          Another feature the app has its a currency converter for the convenince of the user. </p>
+      
+
+        <Card.Link href="https://rob49157.github.io/marketapp/">
+        Market-Watchlist
+        </Card.Link>
+
+        <div>
+          <img className="projectimages1" src={crypto2}></img>
+        </div>
+      </div>
+
+      
+
+        
     </div>
+ 
+    
   );
 }
 

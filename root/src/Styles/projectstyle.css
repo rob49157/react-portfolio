@@ -40,6 +40,33 @@
 
   box-shadow: 10px 15px 30px #16a085;
 }
+
+.marketwatchlist{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  display: table-row;
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: absolute;
+  margin: 30px;
+  margin-right: 30px;
+  margin-top: -57vh;
+  background-color: #fede00;
+  line-height: 2;
+  border-style: double;
+  border-radius: 10px;
+
+  box-shadow: 10px 15px 30px #16a085;
+
+}
+
+.marketwatchlist:hover{
+  color:#16a085
+
+}
 .projectcss:hover{
   
   color:#16a085
