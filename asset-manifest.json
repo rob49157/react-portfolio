@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.b707023b.css",
-    "main.js": "/react-portfolio/static/js/main.8ee2d30b.js",
+    "main.css": "/react-portfolio/static/css/main.c503d844.css",
+    "main.js": "/react-portfolio/static/js/main.c4021175.js",
     "static/media/bike.jpg": "/react-portfolio/static/media/bike.652da223e5a2f5862526.jpg",
     "static/media/Rbuzeta.jpg": "/react-portfolio/static/media/Rbuzeta.936827783504db907083.jpg",
     "static/media/doctorpage.PNG": "/react-portfolio/static/media/doctorpage.f131eac48877e014dfbf.PNG",
@@ -12,16 +12,17 @@
     "static/media/cryptopicture.PNG": "/react-portfolio/static/media/cryptopicture.a374bcfb7428400c12c8.PNG",
     "static/media/note-taker2pics.PNG": "/react-portfolio/static/media/note-taker2pics.1175a026ca1719a3f4e7.PNG",
     "static/media/weatherdashpic.PNG": "/react-portfolio/static/media/weatherdashpic.3ca97c4a0d41b5b0da0e.PNG",
+    "static/media/reactcrypto.PNG": "/react-portfolio/static/media/reactcrypto.c0e0fcaff70858291e2f.PNG",
     "static/media/redcalendar.PNG": "/react-portfolio/static/media/redcalendar.4ad415093bbd9b12c403.PNG",
     "static/media/passgenpic.PNG": "/react-portfolio/static/media/passgenpic.476f1d2226f4e75db0ec.PNG",
     "static/media/quizpic.PNG": "/react-portfolio/static/media/quizpic.6d86a59997b7cf637422.PNG",
     "static/media/techblogpic.PNG": "/react-portfolio/static/media/techblogpic.b58e53ec5d52110146a7.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.b707023b.css.map": "/react-portfolio/static/css/main.b707023b.css.map",
-    "main.8ee2d30b.js.map": "/react-portfolio/static/js/main.8ee2d30b.js.map"
+    "main.c503d844.css.map": "/react-portfolio/static/css/main.c503d844.css.map",
+    "main.c4021175.js.map": "/react-portfolio/static/js/main.c4021175.js.map"
   },
   "entrypoints": [
-    "static/css/main.b707023b.css",
-    "static/js/main.8ee2d30b.js"
+    "static/css/main.c503d844.css",
+    "static/js/main.c4021175.js"
   ]
 }
