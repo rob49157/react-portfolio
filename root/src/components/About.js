@@ -33,12 +33,13 @@ function About(){
          <img className='textwrap-img' src={roberto}></img>
 
        </div> */}
-        <p id='aboutparagrahp'>My career as a programmer began 2 years during the early stages of the 2019. The business I work for suffered greatly during the Covid pandemic and we almost were on the verge of  bankruptcy. My brother, a software engineer, suggested I should try out coding and bought me  a few books on the subject.
-           I began my learning basic commands on java to more advance features like  data structures and Object oriented programing concepts. Once I felt comfortable solving coding  problems with Java on leet code I began  learning Python.
-          I love this new career path i took but  never looked for work in the field till  now because I did not have a college degree. 
-          Going back to school was out of the question due financial reasons, but i found the Ga Tech coding  bootcamp which was a 6 month program where i learned everything from front end technologie 
+        <p id='aboutparagrahp'>   My career as a programmer began 2 years during the early stages of 2019. The business I work for suffered greatly during the Covid pandemic and almost went bankrupt. My brother, a software engineer, suggested I should try out coding and bought me  a few books on the subject.
+           I began learning basic commands on java to more advanced features like  data structures and Object oriented programing concepts. Once I felt comfortable solving coding  problems with Java on leet code I began  learning Python.
+          I love this new career path I took but  never looked for work in the field until  now because I did not have a college degree.
+          Going back to school was out of the question due financial reasons, but i found the Ga Tech coding  bootcamp which was a 6 month program where i learned everything from Front-end technologies
           (HTML5,CSS,JAVASCRIPT,REACT) to backend technologies(NODEJS, EXPRESS,REST API,GRAPHQL, MySQL, and MONGODB). I graduated from the program in February 2022 and earned a Certificate.
-          Now I’m 100% ready to look for work in the industry and hope to get hired soon </p>
+          I’m constantly learning and reading different documentation to keep improving my skill set.
+ </p>
           
          
           <h1 >Biking</h1>

@@ -17,6 +17,7 @@ import tech from "../images/techblogpic.PNG";
 import doctor from "../images/doctorpage.PNG";
 import book from "../images/booksearch.PNG";
 import crypto2 from "../images/reactcrypto.PNG"
+import corazon from "../images/maxpage.PNG"
 
 import "../Styles/projectstyle.css";
 
@@ -34,22 +35,44 @@ function Projects() {
         🅿🆁🅾🅹🅴🅲🆃🆂
       </h4>
 
-
-
+     
       <div className="projectcss">
-        <h1> Interactive Calendar</h1>
+        <h1> Doctor-Review</h1>
         <p>
-          This app allows the user to create an interactive work scheduler. As
-          time passes, the table colors change from green to red.{" "}
+          People have relied on their friends to give them a good recommendation
+          for a doctor. Sometimes your friends haven't seen a specific doctor
+          that you might need to see, or it may be embarrassing to tell someone
+          other than a doctor what is wrong. Whenever that is the case it is
+          pretty much a shot in the dark when choosing a doctor. Instead of
+          taking those shots, use this application to find a good doctor and leave reviews for other people to make inform decision.
         </p>
-        <Card.Link href="https://rob49157.github.io/work-day-scheduler/">
-          Interactive calendar
+
+        <Card.Link href="https://arcane-stream-32047.herokuapp.com/">
+          Doctor-Review
         </Card.Link>
 
         <div>
-          <img className="projectimages" src={calendar}></img>
+          <img className="projectimages1" src={doctor}></img>
         </div>
       </div>
+
+
+
+      <div className="projectcss">
+        <h1> Corazon reading</h1>
+        <p>
+          The website was done for a client looking to have an e-commerce platform where clients can book and make payments on the website. Future developments include offering more services
+          and provide more payment options. The project is currently hosted on Heroku.
+        </p>
+        <Card.Link href="http://www.coraz0n.com/">
+          Corazon 
+        </Card.Link>
+
+        <div>
+          <img className="projectimages" src={corazon}></img>
+        </div>
+      </div>
+
 
       <div className="projectcss">
         <h1> Bike-Adventure</h1>
@@ -123,25 +146,7 @@ function Projects() {
 
       
 
-      <div className="projectcss">
-        <h1> Doctor-Review</h1>
-        <p>
-          People have relied on their friends to give them a good recommendation
-          for a doctor. Sometimes your friends haven't seen a specific doctor
-          that you might need to see, or it may be embarrassing to tell someone
-          other than a doctor what is wrong. Whenever that is the case it is
-          pretty much a shot in the dark when choosing a doctor. Instead of
-          taking those shots, use this application to find a good doctor and leave reviews for other people to make inform decision.
-        </p>
-
-        <Card.Link href="https://arcane-stream-32047.herokuapp.com/">
-          Doctor-Review
-        </Card.Link>
-
-        <div>
-          <img className="projectimages1" src={doctor}></img>
-        </div>
-      </div>
+  
 
      
     
@@ -176,6 +181,22 @@ function Projects() {
           <img className="projectimages1" src={crypto2}></img>
         </div>
       </div>
+
+      
+       <div className="projectcss">
+        <h1> Interactive Calendar</h1>
+        <p>
+          This app allows the user to create an interactive work scheduler. As
+          time passes, the table colors change from green to red.{" "}
+        </p>
+        <Card.Link href="https://rob49157.github.io/work-day-scheduler/">
+          Interactive calendar
+        </Card.Link>
+
+        <div>
+          <img className="projectimages" src={calendar}></img>
+        </div>
+      </div> 
 
       
 
