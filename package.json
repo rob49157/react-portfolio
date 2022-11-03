@@ -1,8 +1,8 @@
 {
+  "homepage": "https://rob49157.github.io/react-portfolio",
   "name": "root",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rob49157.github.io/react-portfolio",
   "dependencies": {
     "@expo/vector-icons": "^12.0.0",
     "babel-cli": "^6.26.0",
